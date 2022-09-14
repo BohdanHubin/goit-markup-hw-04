@@ -229,6 +229,35 @@ color: var(--accent-color);
     width: 270px;
 }
 
+.section-item::before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--third-background-color);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.section-item.antena-icon::before {
+    background-image: url(../images/antenna.png);
+    background-size: 70px 70px;
+}
+.section-item.clock-icon::before {
+    background-image: url(../images/clock.png);
+    background-size: 70px 70px;
+}
+.section-item.diagram-icon::before {
+    background-image: url(../images/diagram.png);
+    background-size: 70px 70px;
+}
+.section-item.astronaut-icon::before {
+    background-image: url(../images/astronaut.png);
+    background-size: 70px 70px;
+}
+
 .section-title {
         margin-bottom: 50px;
 
