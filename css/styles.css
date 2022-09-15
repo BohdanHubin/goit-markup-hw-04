@@ -231,13 +231,13 @@ color: var(--accent-color);
 }
 
 .section-icon{
-    display: block;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    background-color: var(--third-background-color);
-    text-align: center;   
+    background-color: var(--third-background-color); 
+    
 }
+
 
 .section-title {
         margin-bottom: 50px;
