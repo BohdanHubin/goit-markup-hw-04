@@ -231,6 +231,9 @@ color: var(--accent-color);
 }
 
 .section-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
