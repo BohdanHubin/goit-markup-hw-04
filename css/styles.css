@@ -305,7 +305,31 @@ color: var(--accent-color);
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
-    }
+}
+
+.sm-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+
+
+    outline: 1px solid black;
+}
+
+
+.sm-link {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+    
+        border-radius: 50%;
+    outline: 1px solid black;
+}
 
 
 /* footer */
