@@ -410,6 +410,11 @@ color: var(--accent-color);
  color: var(--accent-color);
 }
 
+.list-title.footer-sm {
+    margin-bottom: 20px;
+    color: var(--base-backgroud-color);
+}
+
 
 /* Portfolio */
 
