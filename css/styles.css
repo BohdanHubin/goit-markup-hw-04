@@ -133,8 +133,8 @@ img {
 }
 
 .navigation-contact {
-    
-
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -142,8 +142,14 @@ img {
     text-decoration: none;
     color: var(--text-color);
 }
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
-
+.contact-icon:hover {
+    fill: var(--accent-color);
+}
 
 .navigation-link:hover,
 .navigation-link:focus,
